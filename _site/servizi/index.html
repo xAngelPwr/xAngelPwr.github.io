@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Servizi</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="/airspace-jekyll/css/owl.carousel.css" />
+<link rel="stylesheet" href="/airspace-jekyll/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/airspace-jekyll/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/airspace-jekyll/css/airspace.css" />
+<link rel="stylesheet" href="/airspace-jekyll/css/style.css" />
+<link rel="stylesheet" href="/airspace-jekyll/css/ionicons.min.css" />
+<link rel="stylesheet" href="/airspace-jekyll/css/animate.css" />
+<link rel="stylesheet" href="/airspace-jekyll/css/responsive.css" />
+<link rel="stylesheet" href="/airspace-jekyll/css/syntax.css" />
+<link rel="stylesheet" href="/airspace-jekyll/css/animate.min.css">
+
+<!-- Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="/airspace-jekyll/js/bootstrap.min.js"></script>
+<script src="/airspace-jekyll/js/owl.carousel.min.js"></script>
+<script src="/airspace-jekyll/js/plugins.js"></script>
+<script src="/airspace-jekyll/js/min/waypoints.min.js"></script>
+<script src="/airspace-jekyll/js/jquery.counterup.js"></script>
+
+
+<script src="/airspace-jekyll/js/main.js"></script>
+
+<script src="/airspace-jekyll/js/jquery-3.2.1.min.js"></script>
+<!--
+/*
+ * Airspace
+ * Ported to Jekyll by Andrew Lee
+ * https://github.com/luminousrubyist/airspace-jekyll
+ * Designed and Developed by ThemeFisher
+ * https://themefisher.com/
+ *
+ */
+-->
+
+
+  </head>
+  <body>
+
+
+    <!-- Header Start -->
+<header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- header Nav Start -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">
+              <img src="/airspace-jekyll/img/logo1.png" alt="Logo">
+            </a>
+          </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="passaggiofreccia"><a href="/airspace-jekyll/index"><b>Home</b></a></li>
+                <li class="passaggiofreccia"><a href="/airspace-jekyll/servizi"><b>Servizi</b></a></li>
+                <li class="passaggiofreccia"><a href="/airspace-jekyll/clienti"><b>Clienti</b></a></li>
+                <li class="passaggiofreccia"><a href="https://medium.redturtle.it"><b>Blog</b></a></li>
+                <li class="passaggiofreccia"><a href="/airspace-jekyll/contatti"><b>Contatti</b></a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header><!-- header close -->
+
+
+
+        <!-- Slider Start -->
+<a name="ancoraweb"></a>
+<section id="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1 class="titoloservizi">Servizi</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div id="divweb">
+  <img id="xuscitaweb" src="../img/xchiusuraserv3.png" title="Mostra meno">
+ <p class="paragrafiservizi"><b>Web</b></p>
+ <b><p id="marginepweb">Mostra di più</p></b>
+<a name="ancoraapp"></a>
+<a id="linkancoraweb" href="#ancoraweb"><img src="../img/freccia.svg" class="bouncefrecciaweb" id="bouncefrecciawebcapovolta" onclick="frecciaweb()"></a>
+<b><p id="scoprdimenoweb"></p></b>
+</div>
+
+
+ <div id="divapplicazioni">
+   <img id="xuscitaapp" src="../img/xchiusuraserv3.png" title="Mostra meno">
+  <p class="paragrafiservizi"><b>Applicazioni</b></p>
+  <b><p id="marginepapp"><b>Mostra di più</b></p></b>
+<a name="ancoraintr"></a>
+   <a id="linkancoraapp" href="#ancoraapp"><img src="../img/freccia.svg" class="bouncefrecciaapp" id="bouncefrecciaappcapovolta" onclick="frecciaapp()"></a>
+  <b><p id="scoprdimenoapp"></p></b>
+ </div>
+
+
+ <div id="divintranet">
+   <img id="xuscitaintr" src="../img/xchiusuraserv3.png" title="Mostra meno">
+  <p class="paragrafiservizi"><b>Intranet</b></p>
+  <b><p id="marginepintr"><b>Mostra di più</b></p></b>
+   <a id="linkancoraintr" href="#ancoraintr"><img src="../img/freccia.svg" class="bouncefrecciaintr" id="bouncefrecciaintrcapovolta" onclick="frecciaintr()"></a>
+   <b><p id="scoprdimenointr"></p></b>
+ </div>
+<!-- Call to action Start -->
+
+<script type="text/javascript">
+
+var cont = 0;
+var cont1 = 0;
+var cont2 = 0;
+var resto;
+var resto1;
+var resto2;
+var restoweb;
+var restoapp;
+var restointr;
+var contweb = 0;
+var contapp = 0;
+var contintr = 0;
+var flagweb = 0;
+var flagapp = 0;
+var flagintr = 0;
+
+$(document).ready(function()
+{$("#xuscitaweb").hide();
+});
+
+$(document).ready(function()
+{$("#xuscitaapp").hide();
+});
+
+$(document).ready(function()
+{$("#xuscitaintr").hide();
+});
+
+function frecciaweb(){
+
+  if(flagapp == 1){
+    document.getElementById("divapplicazioni").style.height="300px";
+    document.getElementById("bouncefrecciaappcapovolta").style.transform="rotate(360deg)";
+    document.getElementById("bouncefrecciaappcapovolta").style.width="20%";
+    document.getElementById("bouncefrecciaappcapovolta").style.height="20%";
+    document.getElementById("bouncefrecciaappcapovolta").style.marginTop="0px";
+    document.getElementById("scoprdimenoapp").innerHTML="";
+    document.getElementById("marginepapp").innerHTML="Mostra di più";
+    document.getElementById("divapplicazioni").style.opacity="0.8";
+
+    $(document).ready(function()
+    {$("#xuscitaapp").hide();
+    });
+
+    flagapp = 0;
+
+    document.getElementById("back_to_top1").id="back_to_topvuoto1";
+    document.getElementById("idenimgapp").src="";
+    $(document).ready(function()
+    {$("#back_to_topvuoto").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto1").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto2").hide();
+    });
+    cont1++;
+  }
+
+  if(flagintr == 1){
+    document.getElementById("divintranet").style.height="300px";
+    document.getElementById("bouncefrecciaintrcapovolta").style.transform="rotate(360deg)";
+    document.getElementById("bouncefrecciaintrcapovolta").style.width="20%";
+    document.getElementById("bouncefrecciaintrcapovolta").style.height="20%";
+    document.getElementById("bouncefrecciaintrcapovolta").style.marginTop="0px";
+    document.getElementById("scoprdimenointr").innerHTML="";
+    document.getElementById("marginepintr").innerHTML="Mostra di più";
+    document.getElementById("divintranet").style.opacity="0.8";
+
+    $(document).ready(function()
+    {$("#xuscitaintr").hide();
+    });
+
+    flagintr = 0;
+
+    document.getElementById("back_to_top2").id="back_to_topvuoto2";
+    document.getElementById("idenimgintr").src="";
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto1").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto2").hide();
+    });
+    cont2++;
+  }
+
+
+  flagweb = 1;
+
+  resto = cont%2;
+  if(resto==0){
+
+  document.getElementById("divweb").style.height="2000px";
+  document.getElementById("bouncefrecciawebcapovolta").style.transform="rotate(180deg)";
+  document.getElementById("bouncefrecciawebcapovolta").style.width="5%";
+  document.getElementById("bouncefrecciawebcapovolta").style.height="5%";
+  document.getElementById("bouncefrecciawebcapovolta").style.marginTop="1670px";
+  document.getElementById("marginepweb").innerHTML="";
+  document.getElementById("scoprdimenoweb").innerHTML="Mostra di meno";
+  document.getElementById("divweb").style.opacity="1";
+
+  $(document).ready(function()
+  {$("#xuscitaweb").show();
+  });
+
+  $(document).ready(function(){
+    $("#xuscitaweb").click(function(){
+      document.getElementById("divweb").style.height="300px";
+      document.getElementById("bouncefrecciawebcapovolta").style.transform="rotate(360deg)";
+      document.getElementById("bouncefrecciawebcapovolta").style.width="20%";
+      document.getElementById("bouncefrecciawebcapovolta").style.height="20%";
+      document.getElementById("bouncefrecciawebcapovolta").style.marginTop="0px";
+      document.getElementById("scoprdimenoweb").innerHTML="";
+      document.getElementById("marginepweb").innerHTML="Mostra di più";
+      document.getElementById("divweb").style.opacity="0.8";
+
+
+      $(document).ready(function()
+      {$("#xuscitaweb").hide();
+      });
+
+      flagweb = 0;
+      document.getElementById("back_to_top").id="back_to_topvuoto";
+      document.getElementById("idenimgweb").src="";
+
+      $(document).ready(function()
+      {$("#back_to_topvuoto").hide();
+      });
+
+      $(document).ready(function()
+      {$("#back_to_topvuoto1").hide();
+      });
+
+      $(document).ready(function()
+      {$("#back_to_topvuoto2").hide();
+      });
+
+      cont++;
+    });
+});
+
+if(flagweb == 1){document.getElementById("back_to_topvuoto").id="back_to_top"; document.getElementById("idenimgweb").src="../img/frecciabacktop.png";}
+
+
+ $(document).ready(function()
+  {
+      // Nascondo l'icona al caricamento della pagina
+      $("#back_to_top").hide();
+
+      // Intercetto lo scroll di pagina
+    $(window).scroll(function()
+      {
+        if ($(document).scrollTop() > 600){
+          // Se l'evento scroll si verifica, mostro l'icona (invisibile) con effetto dissolvenza
+          if ($("#back_to_top").is(":hidden")) {
+              $("#back_to_top").fadeIn(500);
+          }
+   }
+          // Se si verifica il ritorno ad inizio pagina, nascondo l'icona con effetto dissolvenza
+          if ($(document).scrollTop() < 600){
+
+               $("#back_to_top").fadeOut(500);
+
+           }
+      });
+
+      // Al click sull'icona, torno ad inizio pagina con movenza fluida
+      $("#back_to_top").click(function()
+      {
+          $("html,body").animate({scrollTop: 0}, 500, function(){});
+      });
+  });
+
+}
+
+if(resto!=0){
+
+document.getElementById("divweb").style.height="300px";
+document.getElementById("bouncefrecciawebcapovolta").style.transform="rotate(360deg)";
+document.getElementById("bouncefrecciawebcapovolta").style.width="20%";
+document.getElementById("bouncefrecciawebcapovolta").style.height="20%";
+document.getElementById("bouncefrecciawebcapovolta").style.marginTop="0px";
+document.getElementById("scoprdimenoweb").innerHTML="";
+document.getElementById("marginepweb").innerHTML="Mostra di più";
+document.getElementById("divweb").style.opacity="0.8";
+
+
+$(document).ready(function()
+{$("#xuscitaweb").hide();
+});
+
+flagweb = 0;
+document.getElementById("back_to_top").id="back_to_topvuoto";
+document.getElementById("idenimgweb").src="";
+
+$(document).ready(function()
+{$("#back_to_topvuoto").hide();
+});
+
+$(document).ready(function()
+{$("#back_to_topvuoto1").hide();
+});
+
+$(document).ready(function()
+{$("#back_to_topvuoto2").hide();
+});
+}
+cont++;
+}
+
+
+
+function frecciaapp(){
+
+  if(flagweb == 1){
+    document.getElementById("divweb").style.height="300px";
+    document.getElementById("bouncefrecciawebcapovolta").style.transform="rotate(360deg)";
+    document.getElementById("bouncefrecciawebcapovolta").style.width="20%";
+    document.getElementById("bouncefrecciawebcapovolta").style.height="20%";
+    document.getElementById("bouncefrecciawebcapovolta").style.marginTop="0px";
+    document.getElementById("scoprdimenoweb").innerHTML="";
+    document.getElementById("marginepweb").innerHTML="Mostra di più";
+    document.getElementById("divweb").style.opacity="0.8";
+
+    $(document).ready(function()
+    {$("#xuscitaweb").hide();
+    });
+
+    flagweb = 0;
+    document.getElementById("back_to_top").id="back_to_topvuoto";
+    document.getElementById("idenimgweb").src="";
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto1").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto2").hide();
+    });
+    cont++;
+  }
+
+  if(flagintr == 1){
+    document.getElementById("divintranet").style.height="300px";
+    document.getElementById("bouncefrecciaintrcapovolta").style.transform="rotate(360deg)";
+    document.getElementById("bouncefrecciaintrcapovolta").style.width="20%";
+    document.getElementById("bouncefrecciaintrcapovolta").style.height="20%";
+    document.getElementById("bouncefrecciaintrcapovolta").style.marginTop="0px";
+    document.getElementById("scoprdimenointr").innerHTML="";
+    document.getElementById("marginepintr").innerHTML="Mostra di più";
+    document.getElementById("divintranet").style.opacity="0.8";
+
+    $(document).ready(function()
+    {$("#xuscitaintr").hide();
+    });
+
+
+    flagintr = 0;
+
+    document.getElementById("back_to_top2").id="back_to_topvuoto2";
+    document.getElementById("idenimgintr").src="";
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto1").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto2").hide();
+    });
+      cont2++;
+  }
+  flagapp = 1;
+
+  resto1= cont1%2;
+  if(resto1==0){
+
+  document.getElementById("divapplicazioni").style.height="2000px";
+  document.getElementById("bouncefrecciaappcapovolta").style.transform="rotate(180deg)";
+  document.getElementById("bouncefrecciaappcapovolta").style.width="5%";
+  document.getElementById("bouncefrecciaappcapovolta").style.height="5%";
+  document.getElementById("bouncefrecciaappcapovolta").style.marginTop="1670px";
+  document.getElementById("marginepapp").innerHTML="";
+  document.getElementById("scoprdimenoapp").innerHTML="Mostra di meno";
+  document.getElementById("divapplicazioni").style.opacity="1";
+
+  $(document).ready(function()
+  {$("#xuscitaapp").show();
+  });
+
+  $(document).ready(function(){
+    $("#xuscitaapp").click(function(){
+      document.getElementById("divapplicazioni").style.height="300px";
+      document.getElementById("bouncefrecciaappcapovolta").style.transform="rotate(360deg)";
+      document.getElementById("bouncefrecciaappcapovolta").style.width="20%";
+      document.getElementById("bouncefrecciaappcapovolta").style.height="20%";
+      document.getElementById("bouncefrecciaappcapovolta").style.marginTop="0px";
+      document.getElementById("scoprdimenoapp").innerHTML="";
+      document.getElementById("marginepapp").innerHTML="Mostra di più";
+      document.getElementById("divapplicazioni").style.opacity="0.8";
+
+      $(document).ready(function()
+      {$("#xuscitaapp").hide();
+      });
+
+      flagapp = 0;
+
+      document.getElementById("back_to_top1").id="back_to_topvuoto1";
+      document.getElementById("idenimgapp").src="";
+      $(document).ready(function()
+      {$("#back_to_topvuoto").hide();
+      });
+
+      $(document).ready(function()
+      {$("#back_to_topvuoto1").hide();
+      });
+
+      $(document).ready(function()
+      {$("#back_to_topvuoto2").hide();
+      });
+
+      cont1++;
+    });
+});
+  if(flagapp == 1){document.getElementById("back_to_topvuoto1").id="back_to_top1"; document.getElementById("idenimgapp").src="../img/frecciabacktop.png";}
+
+ $(document).ready(function()
+  {
+      // Nascondo l'icona al caricamento della pagina
+      $("#back_to_top1").hide();
+
+      // Intercetto lo scroll di pagina
+      $(window).scroll(function()
+      {
+        if ($(document).scrollTop() > 1200){
+          // Se l'evento scroll si verifica, mostro l'icona (invisibile) con effetto dissolvenza
+          if ($("#back_to_top1").is(":hidden")) {
+              $("#back_to_top1").fadeIn(500);
+          }
+   }
+          // Se si verifica il ritorno ad inizio pagina, nascondo l'icona con effetto dissolvenza
+          if ($(document).scrollTop() < 1200){
+
+               $("#back_to_top1").fadeOut(500);
+
+           }
+      });
+
+      // Al click sull'icona, torno ad inizio pagina con movenza fluida
+      $("#back_to_top1").click(function()
+      {
+          $("html,body").animate({scrollTop: 500}, 500, function(){});
+
+      });
+  });
+
+
+}
+
+if(resto1!=0){
+
+document.getElementById("divapplicazioni").style.height="300px";
+document.getElementById("bouncefrecciaappcapovolta").style.transform="rotate(360deg)";
+document.getElementById("bouncefrecciaappcapovolta").style.width="20%";
+document.getElementById("bouncefrecciaappcapovolta").style.height="20%";
+document.getElementById("bouncefrecciaappcapovolta").style.marginTop="0px";
+document.getElementById("scoprdimenoapp").innerHTML="";
+document.getElementById("marginepapp").innerHTML="Mostra di più";
+document.getElementById("divapplicazioni").style.opacity="0.8";
+
+$(document).ready(function()
+{$("#xuscitaapp").hide();
+});
+
+flagapp = 0;
+
+document.getElementById("back_to_top1").id="back_to_topvuoto1";
+document.getElementById("idenimgapp").src="";
+$(document).ready(function()
+{$("#back_to_topvuoto").hide();
+});
+
+$(document).ready(function()
+{$("#back_to_topvuoto1").hide();
+});
+
+$(document).ready(function()
+{$("#back_to_topvuoto2").hide();
+});
+}
+cont1++;
+}
+
+
+
+
+function frecciaintr(){
+
+  flagintr = 1;
+
+if(flagweb == 1){document.getElementById("divweb").style.height="300px";
+                 document.getElementById("bouncefrecciawebcapovolta").style.transform="rotate(360deg)";
+                 document.getElementById("bouncefrecciawebcapovolta").style.width="20%";
+                 document.getElementById("bouncefrecciawebcapovolta").style.height="20%";
+                 document.getElementById("bouncefrecciawebcapovolta").style.marginTop="0px";
+                 document.getElementById("scoprdimenoweb").innerHTML="";
+                 document.getElementById("marginepweb").innerHTML="Mostra di più";
+                 document.getElementById("divweb").style.opacity="0.8";
+
+                 $(document).ready(function()
+                 {$("#xuscitaweb").hide();
+                 });
+
+                 flagweb = 0;
+
+                 document.getElementById("back_to_top").id="back_to_topvuoto";
+                 document.getElementById("idenimgweb").src="";
+
+                 $(document).ready(function()
+                 {$("#back_to_topvuoto").hide();
+               });
+
+               $(document).ready(function()
+               {$("#back_to_topvuoto1").hide();
+             });
+
+             $(document).ready(function()
+             {$("#back_to_topvuoto2").hide();
+           });
+          cont++;
+         }
+
+  if(flagapp == 1){
+    document.getElementById("divapplicazioni").style.height="300px";
+    document.getElementById("bouncefrecciaappcapovolta").style.transform="rotate(360deg)";
+    document.getElementById("bouncefrecciaappcapovolta").style.width="20%";
+    document.getElementById("bouncefrecciaappcapovolta").style.height="20%";
+    document.getElementById("bouncefrecciaappcapovolta").style.marginTop="0px";
+    document.getElementById("scoprdimenoapp").innerHTML="";
+    document.getElementById("marginepapp").innerHTML="Mostra di più";
+    document.getElementById("divapplicazioni").style.opacity="0.8";
+
+    $(document).ready(function()
+    {$("#xuscitaapp").hide();
+    });
+
+    flagapp = 0;
+
+    document.getElementById("back_to_top1").id="back_to_topvuoto1";
+    document.getElementById("idenimgapp").src="";
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto1").hide();
+    });
+
+    $(document).ready(function()
+    {$("#back_to_topvuoto2").hide();
+    });
+    cont1++;
+  }
+  resto2= cont2%2;
+  if(resto2==0){
+
+  document.getElementById("divintranet").style.height="2000px";
+  document.getElementById("bouncefrecciaintrcapovolta").style.transform="rotate(180deg)";
+  document.getElementById("bouncefrecciaintrcapovolta").style.width="5%";
+  document.getElementById("bouncefrecciaintrcapovolta").style.height="5%";
+  document.getElementById("bouncefrecciaintrcapovolta").style.marginTop="1670px";
+  document.getElementById("marginepintr").innerHTML="";
+  document.getElementById("scoprdimenointr").innerHTML="Mostra di meno";
+  document.getElementById("divintranet").style.opacity="1";
+
+  $(document).ready(function()
+  {$("#xuscitaintr").show();
+  });
+
+  $(document).ready(function(){
+    $("#xuscitaintr").click(function(){
+      document.getElementById("divintranet").style.height="300px";
+      document.getElementById("bouncefrecciaintrcapovolta").style.transform="rotate(360deg)";
+      document.getElementById("bouncefrecciaintrcapovolta").style.width="20%";
+      document.getElementById("bouncefrecciaintrcapovolta").style.height="20%";
+      document.getElementById("bouncefrecciaintrcapovolta").style.marginTop="0px";
+      document.getElementById("scoprdimenointr").innerHTML="";
+      document.getElementById("marginepintr").innerHTML="Mostra di più";
+      document.getElementById("divintranet").style.opacity="0.8";
+
+      $(document).ready(function()
+      {$("#xuscitaintr").hide();
+      });
+
+      flagintr = 0;
+
+      document.getElementById("back_to_top2").id="back_to_topvuoto2";
+      document.getElementById("idenimgintr").src="";
+
+      $(document).ready(function()
+      {$("#back_to_topvuoto").hide();
+      });
+
+      $(document).ready(function()
+      {$("#back_to_topvuoto1").hide();
+      });
+
+      $(document).ready(function()
+      {$("#back_to_topvuoto2").hide();
+      });
+
+      cont2++;
+    });
+   });
+  if(flagintr == 1){document.getElementById("back_to_topvuoto2").id="back_to_top2"; document.getElementById("idenimgintr").src="../img/frecciabacktop.png";}
+
+
+$(document).ready(function()
+  {
+      // Nascondo l'icona al caricamento della pagina
+      $("#back_to_top2").hide();
+
+      // Intercetto lo scroll di pagina
+      $(window).scroll(function()
+      {
+        if ($(document).scrollTop() > 1400){
+          // Se l'evento scroll si verifica, mostro l'icona (invisibile) con effetto dissolvenza
+          if ($("#back_to_top2").is(":hidden")) {
+              $("#back_to_top2").fadeIn(500);
+          }
+   }
+          // Se si verifica il ritorno ad inizio pagina, nascondo l'icona con effetto dissolvenza
+          if ($(document).scrollTop() < 1400){
+
+               $("#back_to_top2").fadeOut(500);
+
+           }
+      });
+
+      // Al click sull'icona, torno ad inizio pagina con movenza fluida
+      $("#back_to_top2").click(function()
+      {
+          $("html,body").animate({scrollTop: 900}, 500, function(){});
+
+      });
+  });
+}
+
+if(resto2!=0){
+
+document.getElementById("divintranet").style.height="300px";
+document.getElementById("bouncefrecciaintrcapovolta").style.transform="rotate(360deg)";
+document.getElementById("bouncefrecciaintrcapovolta").style.width="20%";
+document.getElementById("bouncefrecciaintrcapovolta").style.height="20%";
+document.getElementById("bouncefrecciaintrcapovolta").style.marginTop="0px";
+document.getElementById("scoprdimenointr").innerHTML="";
+document.getElementById("marginepintr").innerHTML="Mostra di più";
+document.getElementById("divintranet").style.opacity="0.8";
+
+$(document).ready(function()
+{$("#xuscitaintr").hide();
+});
+
+flagintr = 0;
+
+document.getElementById("back_to_top2").id="back_to_topvuoto2";
+document.getElementById("idenimgintr").src="";
+
+$(document).ready(function()
+{$("#back_to_topvuoto").hide();
+});
+
+$(document).ready(function()
+{$("#back_to_topvuoto1").hide();
+});
+
+$(document).ready(function()
+{$("#back_to_topvuoto2").hide();
+});
+
+}
+cont2++;
+}
+
+
+
+
+
+
+
+</script>
+
+<div id="back_to_topvuoto"><img id="idenimgweb" src=""></div>
+<div id="back_to_topvuoto1"><img id="idenimgapp" src=""></div>
+<div id="back_to_topvuoto2"><img id="idenimgintr" src=""></div>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer Start -->
+<footer>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+      <div>
+       <ul>
+        <li align="center">
+             via Nino Bixio, 4 - 44122 Ferrara<br>
+             Tel.: +39 0532 1915958 / 1716114 | Fax: +39 0532 287070<br>
+             e-mail: info@redturtle.it | pec: redturtle@postecert.it
+        </li>
+        <hr class="hr"></hr>
+            <li>CC.F. e P. IVA 01467600381 | Iscr. Reg. Imprese di FE 01467600381<br>
+                Capitale sociale euro 90.000,00 i.v. | Registro Imprese di FE n. REA 169997
+             <i>Privacy e normativa cookie</i></li><br>
+        <hr class="hr1"></hr>
+            <li class="footerinlinea"><a href="/airspace-jekyll/index"  class="footerhover">Home</a></li>
+            <li class="footerinlinea" class="footerhover">Mappa del sito</li>
+            <li class="footerinlinea"><a href="/airspace-jekyll/contatti" class="footerhover">Contatti</a></li>
+            <li class="footerinlinea"><a href="https://penelope.redturtle.it/login_form?came_from=https%3A%2F%2Fpenelope.redturtle.it%2F" class="footerhover">Area Clienti</a></li>
+            <li class="footerinlinea" class="footerhover">Lavora con noi</li>
+          </ul>
+        </div>
+
+      <br>
+
+      </div>
+    </div>
+  </div>
+  <div>
+    <ul>
+      <li class="footerinlinea"><a href="https://www.facebook.com/redturtle?ref=ts" class="fa fa-facebook" title="Facebook"></a></li>
+      <li class="footerinlinea"><a href="http://twitter.com/#!/redturtle" class="fa fa-twitter" title="Twitter"></a></li>
+      <li class="footerinlinea"><a href="http://www.linkedin.com/company/254152" class="fa fa-linkedin" title="LinkedIn"></a></li>
+      <li class="footerinlinea"><a href="https://www.redturtle.it/it/cosa-facciamo/presentazioni/" class="fa fa-slideshare" title="SlideShare"></a></li>
+      <li class="footerinlinea"><a href="http://blog.redturtle.it/" class="fa fa-rss" title="Blog"></a></li>
+      <li class="footerinlinea"><a href="https://github.com/RedTurtle" class="fa fa-github" title="GitHub"></a></li>
+    </ul>
+  </div>
+</footer>
+
+
+    </body>
+</html>
